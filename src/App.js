@@ -14,7 +14,7 @@ function App () {
     
     useEffect(() => {
         fetchBooks();
-    }, [books])
+    },[])
 
 
     const handleCreateBook = async (title) => {
